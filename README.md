@@ -3,6 +3,8 @@
 
 ## E2E Restaurant Application for the Pandemic Revival
 
+- **RECENT** Made the application deployment ready. Find the app at https://protected-sands-77037.herokuapp.com/
+- For a non-deployment locally runnable application revert to the previous version before the "Made application deployment ready (for Heroku)" commit (7a5639fd9...)
 - Find demo at https://drive.google.com/file/d/1j3e9nErrwhi0EsqoeaVJgUbKzpdRTLUB/view?usp=sharing
 - The website implements an E2E restaurant application that takes care of all the requirements of a restaurant with minimal staff which could help reduce contact during this current pandemic situation.
 - The customer creates an account and then logs in and requests for a reservation. The manager can select from the available tables that are free in that slot which can seat the number of people required by the customer.
