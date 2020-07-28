@@ -1,1 +1,5 @@
 Django==2.2.13
+gunicorn
+django-heroku
+requests
+whitenoise

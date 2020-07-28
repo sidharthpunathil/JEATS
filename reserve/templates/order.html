@@ -92,36 +92,36 @@
 	  {% for starter in starters %}
 	  	<h5 class="mb-3 ml-3">{{starter.name}}
 	  	{% if starter.veg %}
-	  		<img class='small' src="{% static 'veg.png' %}">
+	  		<img class='small' src="{% static 'veg.png' %}" alt="veg">
 	  	{% else %}
-	  		<img class='small' src="{% static 'non.png' %}">
+	  		<img class='small' src="{% static 'non.png' %}" alt="non veg">
 	  	{% endif %}
 	  	</h5>
-	  	<h6 class="mb-3 ml-3" style="text-align: right;">Rs {{starter.cost}}&nbsp;<a href="{% url 'add' reservation.reservation.id starter.id %}"><img class='small' src="{% static 'plus.png' %}"></a></h6>
+	  	<h6 class="mb-3 ml-3" style="text-align: right;">Rs {{starter.cost}}&nbsp;<a href="{% url 'add' reservation.reservation.id starter.id %}"><img class='small' src="{% static 'plus.png' %}" alt="add"></a></h6>
 	  	<h6 class="mb-3 ml-5">{{starter.description}}</h6>
 	  {% endfor %}
 	  <h4 class="my-4 "><u>Main Course</u></h4>
 	  {% for mc in main_courses %}
 	  	<h5 class="mb-3 ml-3">{{mc.name}}
 	  	{% if mc.veg %}
-	  		<img class='small' src="{% static 'veg.png' %}">
+	  		<img class='small' src="{% static 'veg.png' %}" alt="veg">
 	  	{% else %}
-	  		<img class='small' src="{% static 'non.png' %}">
+	  		<img class='small' src="{% static 'non.png' %}" alt="non veg">
 	  	{% endif %}
 	  	</h5>
-	  	<h6 class="mb-3 ml-3" style="text-align: right;">Rs {{mc.cost}}&nbsp;<a href="{% url 'add' reservation.reservation.id mc.id %}"><img class='small' src="{% static 'plus.png' %}"></a></h6>
+	  	<h6 class="mb-3 ml-3" style="text-align: right;">Rs {{mc.cost}}&nbsp;<a href="{% url 'add' reservation.reservation.id mc.id %}"><img class='small' src="{% static 'plus.png' %}" alt="add"></a></h6>
 	  	<h6 class="mb-3 ml-5">{{mc.description}}</h6>
 	  {% endfor %}
 	  <h4 class="my-4 "><u>Desserts</u></h4>
 	  {% for dessert in desserts %}
 	  	<h5 class="mb-3 ml-3">{{dessert.name}}
 	  	{% if dessert.veg %}
-	  		<img class='small' src="{% static 'veg.png' %}">
+	  		<img class='small' src="{% static 'veg.png' %}" alt="veg">
 	  	{% else %}
-	  		<img class='small' src="{% static 'non.png' %}">
+	  		<img class='small' src="{% static 'non.png' %}" alt="non veg">
 	  	{% endif %}
 	  	</h5>
-	  	<h6 class="mb-3 ml-3" style="text-align: right;">Rs {{dessert.cost}}&nbsp;<a href="{% url 'add' reservation.reservation.id dessert.id %}"><img class='small' src="{% static 'plus.png' %}"></a></h6>
+	  	<h6 class="mb-3 ml-3" style="text-align: right;">Rs {{dessert.cost}}&nbsp;<a href="{% url 'add' reservation.reservation.id dessert.id %}"><img class='small' src="{% static 'plus.png' %}" alt="add"></a></h6>
 	  	<h6 class="mb-3 ml-5">{{dessert.description}}</h6>
 	  {% endfor %}
 	 </div>
