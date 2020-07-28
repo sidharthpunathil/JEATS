@@ -36,7 +36,7 @@ SECRET_KEY = 'm@_mb-u$!shbb9v=%tsf+cvvvbv6_se=azvsmf6j+j=&+87r!y'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["protected-sands-77037.herokuapp.com"]
+ALLOWED_HOSTS = ["protected-sands-77037.herokuapp.com","res-manage.herokuapp.com"]
 
 
 
