@@ -4,6 +4,7 @@
 ## E2E Restaurant Application for the Pandemic Revival
 
 - **RECENT** Made the application deployment ready. Find the app at https://res-manage.herokuapp.com/ or in active environments in the side (deployed to heroku from this repo)
+- Any pushes made to this repository will be automatically deployed
 - For a non-deployment locally runnable application revert to the previous version before the "Made application deployment ready (for Heroku)" commit (7a5639fd9...)
 - Find demo at https://drive.google.com/file/d/1j3e9nErrwhi0EsqoeaVJgUbKzpdRTLUB/view?usp=sharing
 - The website implements an E2E restaurant application that takes care of all the requirements of a restaurant with minimal staff which could help reduce contact during this current pandemic situation.
